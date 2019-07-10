@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19C1E1D1F4350D100BAE6DE /* CourseInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E1C1F4350D100BAE6DE /* CourseInfoViewController.m */; };
+		C19C1E231F43867F00BAE6DE /* CourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E221F43867F00BAE6DE /* CourseListViewController.m */; };
+		C19C1E261F449EA000BAE6DE /* RegisterTrainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E251F449EA000BAE6DE /* RegisterTrainerViewController.m */; };
+		C19C1E291F44B91D00BAE6DE /* TrainerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E281F44B91D00BAE6DE /* TrainerListViewController.m */; };
+		C19C1E2F1F44C29300BAE6DE /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E2E1F44C29300BAE6DE /* HomeScreenViewController.m */; };
+		C19C1E351F44CADA00BAE6DE /* SelectTrainersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E341F44CADA00BAE6DE /* SelectTrainersViewController.m */; };
+		C19C1E381F4B6B3B00BAE6DE /* CourseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E371F4B6B3B00BAE6DE /* CourseListTableViewCell.m */; };
+		C19C1E401F4C9C3800BAE6DE /* FacilityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E3F1F4C9C3800BAE6DE /* FacilityListViewController.m */; };
+		C19C1E421F4CA68A00BAE6DE /* facilityList.csv in Resources */ = {isa = PBXBuildFile; fileRef = C19C1E411F4CA68A00BAE6DE /* facilityList.csv */; };
+		C19C1E451F4CAF7600BAE6DE /* ScanEmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E441F4CAF7600BAE6DE /* ScanEmployeesViewController.m */; };
+		C19C1E481F4F0E6300BAE6DE /* KeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E471F4F0E6300BAE6DE /* KeyboardButton.m */; };
+		C19C1E4B1F4F264D00BAE6DE /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E4A1F4F264D00BAE6DE /* KeyboardViewController.m */; };
+		C19C1E4E1F5054B000BAE6DE /* EditScansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E4D1F5054B000BAE6DE /* EditScansViewController.m */; };
+		C19C1E591F50934B00BAE6DE /* EmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E581F50934B00BAE6DE /* EmployeeCell.m */; };
+		C19C1E5C1F573D7400BAE6DE /* HomeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E5B1F573D7400BAE6DE /* HomeMenuViewController.m */; };
+		C19C1E601F57457E00BAE6DE /* OfflineModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E5F1F57457E00BAE6DE /* OfflineModeViewController.m */; };
+		C19C1E671F61661100BAE6DE /* OfflineEditScansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19C1E661F61661100BAE6DE /* OfflineEditScansViewController.m */; };
+		C1C1388A1F34D25D00FB9D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C138891F34D25D00FB9D0D /* main.m */; };
+		C1C1388D1F34D25D00FB9D0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1388C1F34D25D00FB9D0D /* AppDelegate.m */; };
+		C1C138901F34D25D00FB9D0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1388F1F34D25D00FB9D0D /* ViewController.m */; };
+		C1C138931F34D25D00FB9D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C138911F34D25D00FB9D0D /* Main.storyboard */; };
+		C1C138951F34D25D00FB9D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C138941F34D25D00FB9D0D /* Assets.xcassets */; };
+		C1C138981F34D25D00FB9D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C138961F34D25D00FB9D0D /* LaunchScreen.storyboard */; };
+		C1C138A31F34D25D00FB9D0D /* MTA_ScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C138A21F34D25D00FB9D0D /* MTA_ScannerTests.m */; };
+		C1C138AE1F34D25D00FB9D0D /* MTA_ScannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C138AD1F34D25D00FB9D0D /* MTA_ScannerUITests.m */; };
+		C1C138BD1F3892FE00FB9D0D /* LoadingScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C138BC1F3892FE00FB9D0D /* LoadingScreenViewController.m */; };
+		C1C138C01F38957400FB9D0D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C138BF1F38957400FB9D0D /* MenuViewController.m */; };
+		C1C138C21F38C4F200FB9D0D /* authSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1C138C11F38C4F200FB9D0D /* authSound.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C1389F1F34D25D00FB9D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C1387D1F34D25C00FB9D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C138841F34D25D00FB9D0D;
+			remoteInfo = "MTA Scanner";
+		};
+		C1C138AA1F34D25D00FB9D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C1387D1F34D25C00FB9D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C138841F34D25D00FB9D0D;
+			remoteInfo = "MTA Scanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0AF2FB2131399300590ECA /* cert.pfx */ = {isa = PBXFileReference; lastKnownFileType = file; name = cert.pfx; path = ../../../../Downloads/cert.pfx; sourceTree = "<group>"; };
+		C19C1E1B1F4350D100BAE6DE /* CourseInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseInfoViewController.h; path = ../CourseInfoViewController.h; sourceTree = "<group>"; };
+		C19C1E1C1F4350D100BAE6DE /* CourseInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseInfoViewController.m; path = ../CourseInfoViewController.m; sourceTree = "<group>"; };
+		C19C1E211F43867F00BAE6DE /* CourseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseListViewController.h; path = ../CourseListViewController.h; sourceTree = "<group>"; };
+		C19C1E221F43867F00BAE6DE /* CourseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseListViewController.m; path = ../CourseListViewController.m; sourceTree = "<group>"; };
+		C19C1E241F449EA000BAE6DE /* RegisterTrainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterTrainerViewController.h; path = ../RegisterTrainerViewController.h; sourceTree = "<group>"; };
+		C19C1E251F449EA000BAE6DE /* RegisterTrainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterTrainerViewController.m; path = ../RegisterTrainerViewController.m; sourceTree = "<group>"; };
+		C19C1E271F44B91D00BAE6DE /* TrainerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainerListViewController.h; path = ../TrainerListViewController.h; sourceTree = "<group>"; };
+		C19C1E281F44B91D00BAE6DE /* TrainerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainerListViewController.m; path = ../TrainerListViewController.m; sourceTree = "<group>"; };
+		C19C1E2D1F44C29300BAE6DE /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeScreenViewController.h; path = ../HomeScreenViewController.h; sourceTree = "<group>"; };
+		C19C1E2E1F44C29300BAE6DE /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeScreenViewController.m; path = ../HomeScreenViewController.m; sourceTree = "<group>"; };
+		C19C1E331F44CADA00BAE6DE /* SelectTrainersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectTrainersViewController.h; path = ../SelectTrainersViewController.h; sourceTree = "<group>"; };
+		C19C1E341F44CADA00BAE6DE /* SelectTrainersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectTrainersViewController.m; path = ../SelectTrainersViewController.m; sourceTree = "<group>"; };
+		C19C1E361F4B6B3B00BAE6DE /* CourseListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListTableViewCell.h; sourceTree = "<group>"; };
+		C19C1E371F4B6B3B00BAE6DE /* CourseListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListTableViewCell.m; sourceTree = "<group>"; };
+		C19C1E3E1F4C9C3800BAE6DE /* FacilityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilityListViewController.h; sourceTree = "<group>"; };
+		C19C1E3F1F4C9C3800BAE6DE /* FacilityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilityListViewController.m; sourceTree = "<group>"; };
+		C19C1E411F4CA68A00BAE6DE /* facilityList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = facilityList.csv; sourceTree = "<group>"; };
+		C19C1E431F4CAF7600BAE6DE /* ScanEmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanEmployeesViewController.h; sourceTree = "<group>"; };
+		C19C1E441F4CAF7600BAE6DE /* ScanEmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanEmployeesViewController.m; sourceTree = "<group>"; };
+		C19C1E461F4F0E6300BAE6DE /* KeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButton.h; sourceTree = "<group>"; };
+		C19C1E471F4F0E6300BAE6DE /* KeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButton.m; sourceTree = "<group>"; };
+		C19C1E491F4F264D00BAE6DE /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		C19C1E4A1F4F264D00BAE6DE /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		C19C1E4C1F5054B000BAE6DE /* EditScansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditScansViewController.h; sourceTree = "<group>"; };
+		C19C1E4D1F5054B000BAE6DE /* EditScansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditScansViewController.m; sourceTree = "<group>"; };
+		C19C1E571F50934B00BAE6DE /* EmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCell.h; sourceTree = "<group>"; };
+		C19C1E581F50934B00BAE6DE /* EmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCell.m; sourceTree = "<group>"; };
+		C19C1E5A1F573D7400BAE6DE /* HomeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMenuViewController.h; sourceTree = "<group>"; };
+		C19C1E5B1F573D7400BAE6DE /* HomeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMenuViewController.m; sourceTree = "<group>"; };
+		C19C1E5E1F57457E00BAE6DE /* OfflineModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineModeViewController.h; sourceTree = "<group>"; };
+		C19C1E5F1F57457E00BAE6DE /* OfflineModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineModeViewController.m; sourceTree = "<group>"; };
+		C19C1E651F61661100BAE6DE /* OfflineEditScansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineEditScansViewController.h; sourceTree = "<group>"; };
+		C19C1E661F61661100BAE6DE /* OfflineEditScansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineEditScansViewController.m; sourceTree = "<group>"; };
+		C1C138851F34D25D00FB9D0D /* MTA Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTA Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C138891F34D25D00FB9D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1C1388B1F34D25D00FB9D0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1C1388C1F34D25D00FB9D0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1C1388E1F34D25D00FB9D0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1C1388F1F34D25D00FB9D0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1C138921F34D25D00FB9D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C138941F34D25D00FB9D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C138971F34D25D00FB9D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1C138991F34D25D00FB9D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C1389E1F34D25D00FB9D0D /* MTA ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTA ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C138A21F34D25D00FB9D0D /* MTA_ScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTA_ScannerTests.m; sourceTree = "<group>"; };
+		C1C138A41F34D25D00FB9D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C138A91F34D25D00FB9D0D /* MTA ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTA ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C138AD1F34D25D00FB9D0D /* MTA_ScannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTA_ScannerUITests.m; sourceTree = "<group>"; };
+		C1C138AF1F34D25D00FB9D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C138BB1F3892FE00FB9D0D /* LoadingScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingScreenViewController.h; sourceTree = "<group>"; };
+		C1C138BC1F3892FE00FB9D0D /* LoadingScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingScreenViewController.m; sourceTree = "<group>"; };
+		C1C138BE1F38957400FB9D0D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		C1C138BF1F38957400FB9D0D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		C1C138C11F38C4F200FB9D0D /* authSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = authSound.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C138821F34D25D00FB9D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C1389B1F34D25D00FB9D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C138A61F34D25D00FB9D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C19C1E4F1F5064E800BAE6DE /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E2D1F44C29300BAE6DE /* HomeScreenViewController.h */,
+				C19C1E2E1F44C29300BAE6DE /* HomeScreenViewController.m */,
+				C19C1E5A1F573D7400BAE6DE /* HomeMenuViewController.h */,
+				C19C1E5B1F573D7400BAE6DE /* HomeMenuViewController.m */,
+				C19C1E501F50652100BAE6DE /* New Class */,
+				C19C1E541F50660000BAE6DE /* Register Trainers */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		C19C1E501F50652100BAE6DE /* New Class */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E5D1F57456D00BAE6DE /* Offline Mode */,
+				C19C1E511F50653400BAE6DE /* Course Info */,
+				C19C1E521F50654100BAE6DE /* Select Trainers */,
+				C19C1E531F5065C000BAE6DE /* Scan Employees */,
+			);
+			name = "New Class";
+			sourceTree = "<group>";
+		};
+		C19C1E511F50653400BAE6DE /* Course Info */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E1B1F4350D100BAE6DE /* CourseInfoViewController.h */,
+				C19C1E1C1F4350D100BAE6DE /* CourseInfoViewController.m */,
+				C19C1E211F43867F00BAE6DE /* CourseListViewController.h */,
+				C19C1E221F43867F00BAE6DE /* CourseListViewController.m */,
+				C19C1E361F4B6B3B00BAE6DE /* CourseListTableViewCell.h */,
+				C19C1E371F4B6B3B00BAE6DE /* CourseListTableViewCell.m */,
+				C19C1E3E1F4C9C3800BAE6DE /* FacilityListViewController.h */,
+				C19C1E3F1F4C9C3800BAE6DE /* FacilityListViewController.m */,
+			);
+			name = "Course Info";
+			sourceTree = "<group>";
+		};
+		C19C1E521F50654100BAE6DE /* Select Trainers */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E331F44CADA00BAE6DE /* SelectTrainersViewController.h */,
+				C19C1E341F44CADA00BAE6DE /* SelectTrainersViewController.m */,
+			);
+			name = "Select Trainers";
+			sourceTree = "<group>";
+		};
+		C19C1E531F5065C000BAE6DE /* Scan Employees */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E431F4CAF7600BAE6DE /* ScanEmployeesViewController.h */,
+				C19C1E441F4CAF7600BAE6DE /* ScanEmployeesViewController.m */,
+				C19C1E4C1F5054B000BAE6DE /* EditScansViewController.h */,
+				C19C1E4D1F5054B000BAE6DE /* EditScansViewController.m */,
+			);
+			name = "Scan Employees";
+			sourceTree = "<group>";
+		};
+		C19C1E541F50660000BAE6DE /* Register Trainers */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E241F449EA000BAE6DE /* RegisterTrainerViewController.h */,
+				C19C1E251F449EA000BAE6DE /* RegisterTrainerViewController.m */,
+				C19C1E271F44B91D00BAE6DE /* TrainerListViewController.h */,
+				C19C1E281F44B91D00BAE6DE /* TrainerListViewController.m */,
+				C19C1E571F50934B00BAE6DE /* EmployeeCell.h */,
+				C19C1E581F50934B00BAE6DE /* EmployeeCell.m */,
+			);
+			name = "Register Trainers";
+			sourceTree = "<group>";
+		};
+		C19C1E551F50662500BAE6DE /* Custom Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E461F4F0E6300BAE6DE /* KeyboardButton.h */,
+				C19C1E471F4F0E6300BAE6DE /* KeyboardButton.m */,
+				C19C1E491F4F264D00BAE6DE /* KeyboardViewController.h */,
+				C19C1E4A1F4F264D00BAE6DE /* KeyboardViewController.m */,
+			);
+			name = "Custom Keyboard";
+			sourceTree = "<group>";
+		};
+		C19C1E561F50665D00BAE6DE /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				C1C1388E1F34D25D00FB9D0D /* ViewController.h */,
+				C1C1388F1F34D25D00FB9D0D /* ViewController.m */,
+				C1C1388B1F34D25D00FB9D0D /* AppDelegate.h */,
+				C1C1388C1F34D25D00FB9D0D /* AppDelegate.m */,
+				C1C138BB1F3892FE00FB9D0D /* LoadingScreenViewController.h */,
+				C1C138BC1F3892FE00FB9D0D /* LoadingScreenViewController.m */,
+				C1C138BE1F38957400FB9D0D /* MenuViewController.h */,
+				C1C138BF1F38957400FB9D0D /* MenuViewController.m */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		C19C1E5D1F57456D00BAE6DE /* Offline Mode */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E5E1F57457E00BAE6DE /* OfflineModeViewController.h */,
+				C19C1E5F1F57457E00BAE6DE /* OfflineModeViewController.m */,
+				C19C1E651F61661100BAE6DE /* OfflineEditScansViewController.h */,
+				C19C1E661F61661100BAE6DE /* OfflineEditScansViewController.m */,
+			);
+			name = "Offline Mode";
+			sourceTree = "<group>";
+		};
+		C1C1387C1F34D25C00FB9D0D = {
+			isa = PBXGroup;
+			children = (
+				C1C138871F34D25D00FB9D0D /* MTA Scanner */,
+				C1C138A11F34D25D00FB9D0D /* MTA ScannerTests */,
+				C1C138AC1F34D25D00FB9D0D /* MTA ScannerUITests */,
+				C1C138861F34D25D00FB9D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C138861F34D25D00FB9D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C138851F34D25D00FB9D0D /* MTA Scanner.app */,
+				C1C1389E1F34D25D00FB9D0D /* MTA ScannerTests.xctest */,
+				C1C138A91F34D25D00FB9D0D /* MTA ScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C138871F34D25D00FB9D0D /* MTA Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				C19C1E561F50665D00BAE6DE /* Loading */,
+				C19C1E4F1F5064E800BAE6DE /* Home Screen */,
+				C19C1E551F50662500BAE6DE /* Custom Keyboard */,
+				C1C138911F34D25D00FB9D0D /* Main.storyboard */,
+				C1C138961F34D25D00FB9D0D /* LaunchScreen.storyboard */,
+				C1C138941F34D25D00FB9D0D /* Assets.xcassets */,
+				AF0AF2FB2131399300590ECA /* cert.pfx */,
+				C1C138991F34D25D00FB9D0D /* Info.plist */,
+				C1C138881F34D25D00FB9D0D /* Supporting Files */,
+			);
+			path = "MTA Scanner";
+			sourceTree = "<group>";
+		};
+		C1C138881F34D25D00FB9D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C138C11F38C4F200FB9D0D /* authSound.wav */,
+				C19C1E411F4CA68A00BAE6DE /* facilityList.csv */,
+				C1C138891F34D25D00FB9D0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C138A11F34D25D00FB9D0D /* MTA ScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C138A21F34D25D00FB9D0D /* MTA_ScannerTests.m */,
+				C1C138A41F34D25D00FB9D0D /* Info.plist */,
+			);
+			path = "MTA ScannerTests";
+			sourceTree = "<group>";
+		};
+		C1C138AC1F34D25D00FB9D0D /* MTA ScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C138AD1F34D25D00FB9D0D /* MTA_ScannerUITests.m */,
+				C1C138AF1F34D25D00FB9D0D /* Info.plist */,
+			);
+			path = "MTA ScannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C138841F34D25D00FB9D0D /* MTA Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C138B21F34D25D00FB9D0D /* Build configuration list for PBXNativeTarget "MTA Scanner" */;
+			buildPhases = (
+				C1C138811F34D25D00FB9D0D /* Sources */,
+				C1C138821F34D25D00FB9D0D /* Frameworks */,
+				C1C138831F34D25D00FB9D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTA Scanner";
+			productName = "MTA Scanner";
+			productReference = C1C138851F34D25D00FB9D0D /* MTA Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C1389D1F34D25D00FB9D0D /* MTA ScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C138B51F34D25D00FB9D0D /* Build configuration list for PBXNativeTarget "MTA ScannerTests" */;
+			buildPhases = (
+				C1C1389A1F34D25D00FB9D0D /* Sources */,
+				C1C1389B1F34D25D00FB9D0D /* Frameworks */,
+				C1C1389C1F34D25D00FB9D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C138A01F34D25D00FB9D0D /* PBXTargetDependency */,
+			);
+			name = "MTA ScannerTests";
+			productName = "MTA ScannerTests";
+			productReference = C1C1389E1F34D25D00FB9D0D /* MTA ScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1C138A81F34D25D00FB9D0D /* MTA ScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C138B81F34D25D00FB9D0D /* Build configuration list for PBXNativeTarget "MTA ScannerUITests" */;
+			buildPhases = (
+				C1C138A51F34D25D00FB9D0D /* Sources */,
+				C1C138A61F34D25D00FB9D0D /* Frameworks */,
+				C1C138A71F34D25D00FB9D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C138AB1F34D25D00FB9D0D /* PBXTargetDependency */,
+			);
+			name = "MTA ScannerUITests";
+			productName = "MTA ScannerUITests";
+			productReference = C1C138A91F34D25D00FB9D0D /* MTA ScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C1387D1F34D25C00FB9D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Wazir Rafeek";
+				TargetAttributes = {
+					C1C138841F34D25D00FB9D0D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YF983PH75G;
+						ProvisioningStyle = Automatic;
+					};
+					C1C1389D1F34D25D00FB9D0D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4N266R2YJL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1C138841F34D25D00FB9D0D;
+					};
+					C1C138A81F34D25D00FB9D0D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4N266R2YJL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1C138841F34D25D00FB9D0D;
+					};
+				};
+			};
+			buildConfigurationList = C1C138801F34D25D00FB9D0D /* Build configuration list for PBXProject "MTA Scanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C1387C1F34D25C00FB9D0D;
+			productRefGroup = C1C138861F34D25D00FB9D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C138841F34D25D00FB9D0D /* MTA Scanner */,
+				C1C1389D1F34D25D00FB9D0D /* MTA ScannerTests */,
+				C1C138A81F34D25D00FB9D0D /* MTA ScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C138831F34D25D00FB9D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C138C21F38C4F200FB9D0D /* authSound.wav in Resources */,
+				C1C138981F34D25D00FB9D0D /* LaunchScreen.storyboard in Resources */,
+				C19C1E421F4CA68A00BAE6DE /* facilityList.csv in Resources */,
+				C1C138951F34D25D00FB9D0D /* Assets.xcassets in Resources */,
+				C1C138931F34D25D00FB9D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C1389C1F34D25D00FB9D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C138A71F34D25D00FB9D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C138811F34D25D00FB9D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19C1E5C1F573D7400BAE6DE /* HomeMenuViewController.m in Sources */,
+				C1C138901F34D25D00FB9D0D /* ViewController.m in Sources */,
+				C19C1E2F1F44C29300BAE6DE /* HomeScreenViewController.m in Sources */,
+				C19C1E231F43867F00BAE6DE /* CourseListViewController.m in Sources */,
+				C19C1E4B1F4F264D00BAE6DE /* KeyboardViewController.m in Sources */,
+				C19C1E401F4C9C3800BAE6DE /* FacilityListViewController.m in Sources */,
+				C1C138BD1F3892FE00FB9D0D /* LoadingScreenViewController.m in Sources */,
+				C1C1388D1F34D25D00FB9D0D /* AppDelegate.m in Sources */,
+				C1C1388A1F34D25D00FB9D0D /* main.m in Sources */,
+				C19C1E481F4F0E6300BAE6DE /* KeyboardButton.m in Sources */,
+				C19C1E671F61661100BAE6DE /* OfflineEditScansViewController.m in Sources */,
+				C19C1E291F44B91D00BAE6DE /* TrainerListViewController.m in Sources */,
+				C19C1E4E1F5054B000BAE6DE /* EditScansViewController.m in Sources */,
+				C19C1E351F44CADA00BAE6DE /* SelectTrainersViewController.m in Sources */,
+				C19C1E381F4B6B3B00BAE6DE /* CourseListTableViewCell.m in Sources */,
+				C1C138C01F38957400FB9D0D /* MenuViewController.m in Sources */,
+				C19C1E451F4CAF7600BAE6DE /* ScanEmployeesViewController.m in Sources */,
+				C19C1E591F50934B00BAE6DE /* EmployeeCell.m in Sources */,
+				C19C1E601F57457E00BAE6DE /* OfflineModeViewController.m in Sources */,
+				C19C1E261F449EA000BAE6DE /* RegisterTrainerViewController.m in Sources */,
+				C19C1E1D1F4350D100BAE6DE /* CourseInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C1389A1F34D25D00FB9D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C138A31F34D25D00FB9D0D /* MTA_ScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C138A51F34D25D00FB9D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C138AE1F34D25D00FB9D0D /* MTA_ScannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C138A01F34D25D00FB9D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C138841F34D25D00FB9D0D /* MTA Scanner */;
+			targetProxy = C1C1389F1F34D25D00FB9D0D /* PBXContainerItemProxy */;
+		};
+		C1C138AB1F34D25D00FB9D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C138841F34D25D00FB9D0D /* MTA Scanner */;
+			targetProxy = C1C138AA1F34D25D00FB9D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C138911F34D25D00FB9D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C138921F34D25D00FB9D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C138961F34D25D00FB9D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C138971F34D25D00FB9D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C138B01F34D25D00FB9D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C138B11F34D25D00FB9D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C138B31F34D25D00FB9D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF983PH75G;
+				INFOPLIST_FILE = "MTA Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.mta.EA-EMD-Attendance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1C138B41F34D25D00FB9D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF983PH75G;
+				INFOPLIST_FILE = "MTA Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.mta.EA-EMD-Attendance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C1C138B61F34D25D00FB9D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4N266R2YJL;
+				INFOPLIST_FILE = "MTA ScannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.MTA-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTA Scanner.app/MTA Scanner";
+			};
+			name = Debug;
+		};
+		C1C138B71F34D25D00FB9D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4N266R2YJL;
+				INFOPLIST_FILE = "MTA ScannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.MTA-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTA Scanner.app/MTA Scanner";
+			};
+			name = Release;
+		};
+		C1C138B91F34D25D00FB9D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4N266R2YJL;
+				INFOPLIST_FILE = "MTA ScannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.MTA-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MTA Scanner";
+			};
+			name = Debug;
+		};
+		C1C138BA1F34D25D00FB9D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4N266R2YJL;
+				INFOPLIST_FILE = "MTA ScannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyu.edu.MTA-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MTA Scanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C138801F34D25D00FB9D0D /* Build configuration list for PBXProject "MTA Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C138B01F34D25D00FB9D0D /* Debug */,
+				C1C138B11F34D25D00FB9D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C138B21F34D25D00FB9D0D /* Build configuration list for PBXNativeTarget "MTA Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C138B31F34D25D00FB9D0D /* Debug */,
+				C1C138B41F34D25D00FB9D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C138B51F34D25D00FB9D0D /* Build configuration list for PBXNativeTarget "MTA ScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C138B61F34D25D00FB9D0D /* Debug */,
+				C1C138B71F34D25D00FB9D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C138B81F34D25D00FB9D0D /* Build configuration list for PBXNativeTarget "MTA ScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C138B91F34D25D00FB9D0D /* Debug */,
+				C1C138BA1F34D25D00FB9D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C1387D1F34D25C00FB9D0D /* Project object */;
+}
